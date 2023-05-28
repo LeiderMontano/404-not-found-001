@@ -78,10 +78,11 @@
     .image-text{
         display: flex;
         flex-direction: column;
+        padding: 50px;
     }
     .image{
-        height: 700px;
-        width: 700px;
+        height: 650px;
+        width: 650px;
     }
     .body-text{
         display: flex;
@@ -89,6 +90,9 @@
     }
     .credit{
         margin: 5rem;
+    }
+    .text001{
+        padding-top: 3rem;
     }
 
     .text002{
