@@ -1,0 +1,129 @@
+:root{
+    --font-head: 'Inconsolata', monospace;
+    --font-body: 'Space Mono', monospace;
+    --font-footer: 'Montserrat', sans-serif;
+    --color-gray1: #333333;
+    --color-gray2:  #4F4F4F;
+    --color-footer: #BDBDBD;
+    --color-hover: #FF6D5B;
+}
+
+.notFound-head{
+    font-family: var(--font-head);
+    color: var(--color-gray1);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 77px 40px;
+}
+
+.image-text{
+    padding: 119px;
+    display: flex;
+}
+
+.image{
+    display: block;
+    width:540px;
+}
+
+.body-text{
+    font-family: var(--font-body);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.text001{
+    color: var(--color-gray1);
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.text002{
+    color: var(--color-gray2);
+    font-size: 24px;
+    padding-top: 5rem;
+   
+}
+
+.button-home{
+    font-family: var(--font-body);
+    background: var(--color-gray1);
+    color: #FFFFFF;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 24px 43px 24px 43px;
+    position: fixed;
+    margin-top: 23.5rem;
+   
+}
+
+.button-home:hover{
+    cursor: pointer;
+    transition: 0.8s;
+    background-color: var(--color-hover);
+}
+
+.credit{
+    font-family: var(--font-footer);
+    color: var(--color-footer);
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-text{
+        padding:0%;
+    }
+    .body-text{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .credit{
+        margin: 5rem;
+    }
+
+    .text002{
+        padding-top: 5rem;
+    }
+    .button-home{
+        position:initial;
+
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .notFound-head{
+        font-size: 24px;
+        padding: 1rem;
+    }
+    .image-text{
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .text001{
+        font-size: 48px;
+    }
+    
+    .text002{
+        font-size: 18px;
+    }
+    .image{
+        width:287px;
+        height: 238px;
+        padding:2%;
+    }
+    .button-home{
+        margin-top: 3.5rem;
+    }
+    .credit{
+        font-size: 14px;
+        padding-top: 114px;
+        margin: 1rem;
+    }
+    
+}
