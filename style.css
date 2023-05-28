@@ -76,7 +76,8 @@
 @media screen and (max-width: 1024px) {
 
     .image-text{
-        padding:0%;
+        display: flex;
+        flex-direction: column;
     }
     .body-text{
         display: flex;
@@ -91,11 +92,12 @@
     }
     .button-home{
         position:initial;
+        margin-top: 114px;
 
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 414px) {
     .notFound-head{
         font-size: 24px;
         padding: 1rem;
