@@ -79,6 +79,10 @@
         display: flex;
         flex-direction: column;
     }
+    .image{
+        height: 700px;
+        width: 700px;
+    }
     .body-text{
         display: flex;
         flex-wrap: wrap;
